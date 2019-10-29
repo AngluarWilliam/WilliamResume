@@ -428,7 +428,7 @@ $(function() {
 			observer: true
 		});
 		var sound = new Howl({
-			src: ["audio/show.mp3", "audio/show.OGG"],
+			src: ["assets/audio/show.mp3", "assets/audio/show.OGG"],
 			autoplay: true,
 			loop: true
 		});
@@ -479,11 +479,11 @@ $(function() {
 				$('.W-pinglun').stop(true, true).hide()
 			}, 600)
 		});
-		var Imgatr = ['picture/bj.jpg', 'picture/bj.jpg', 'picture/bj.jpg'];
+		var Imgatr = ['uploads/picture/bj.jpg', 'uploads/picture/bj.jpg', 'uploads/picture/bj.jpg'];
 		var url = Imgatr[Math.floor(Math.random() * Imgatr.length)];
 		$('.W-yi-bg').css('background-image', 'url(' + url + ')');
-		if(url == "picture/bj.jpg") {
-			$('.Ws-tou').find('img').attr('src', 'picture/tx.jpg')
+		if(url == "uploads/picture/bj.jpg") {
+			$('.Ws-tou').find('img').attr('src', 'uploads/picture/tx.jpg')
 		} else {
 			$('.Ws-tou').find('img').attr('src', 'picture/tx.jpg')
 		}

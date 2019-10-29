@@ -3275,7 +3275,7 @@ body,html {
 }
 
 .W-aboutme {
-    background: url("../picture/bj.jpg") no-repeat;
+    background: url("../../uploads/picture/bj.jpg") no-repeat;
     background-size: cover
 }
 
@@ -4004,7 +4004,7 @@ body,html {
 
 .swiper-pagination1:before {
     content: '';
-    background: url("../picture/yjtp.png") no-repeat;
+    background: url("../../uploads/picture/yjtp.png") no-repeat;
     background-size: 100% 100%;
     width: 40px;
     height: 40px;
@@ -4793,7 +4793,7 @@ body,html {
 }
 
 .W-lian-bottom .W-qq {
-    background: url("../picture/qq.jpg") no-repeat transparent;
+    background: url("../../uploads/picture/qq.jpg") no-repeat transparent;
     background-size: cover;
     background-position: center center;
 }
@@ -4804,7 +4804,7 @@ body,html {
 }
 
 .W-lian-bottom .W-weixin {
-    background: url("../picture/weixin.jpg") no-repeat transparent;
+    background: url("../../uploads/picture/weixin.jpg") no-repeat transparent;
     background-size: cover;
     background-position: center center;
 }
@@ -6119,7 +6119,7 @@ body .W-lian-bottom .w-gongz {
 }
 
 body .W-lian-bottom .w-gongzhonghao {
-    background: url("../picture/gzh.jpg") no-repeat transparent;
+    background: url("../../uploads/picture/gzh.jpg") no-repeat transparent;
     background-size: contain;
     background-position: bottom,center;
     background-color: #457ab2;
